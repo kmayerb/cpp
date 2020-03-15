@@ -24,13 +24,16 @@ False, so return y or 1
 
 ```cpp
 int main() {
+    const int a = 1;
+    const int b = 2;
+    
     int x = 2;
 
     switch(x) {
-        case 1:
+        case a:
             puts("x == 1");
             break;
-        case 2:
+        case b:
             puts("x == 2");
             break;
         default:
