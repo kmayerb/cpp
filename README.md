@@ -65,6 +65,8 @@ int main()
 
 ## for
 
+control is via: (init; while; iterate) clauses
+
 ```cpp
 int main()
 {
