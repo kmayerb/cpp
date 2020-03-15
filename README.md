@@ -43,3 +43,21 @@ int main() {
 }
 
 ```
+
+## do while
+
+
+```cpp
+int main()
+{
+    int array[] = { 1, 2, 3 };
+    int i = 0;
+    
+    do {
+        printf("%d\n", array[i]);
+        ++i;
+    } while(i < 3);
+    
+    return 0;
+}
+```
